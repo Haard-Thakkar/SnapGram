@@ -1,0 +1,24 @@
+h3
+{
+  font-size: 25px !important;
+}
+.btn-success:hover
+{
+  background-color: red;
+}
+canvas {
+    margin-top: 45px;
+    margin-left: 430px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-bottom: 5vh;
+}
+
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
